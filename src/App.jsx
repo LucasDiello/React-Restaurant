@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 import TopBar from './components/TopBar'
+import Header from './components/Header'
+import './assets/css/style.css'
 
 function App() {
 
@@ -26,6 +28,7 @@ function App() {
     <p className="text">Grilli</p>
   </div>
     <TopBar />
+    <Header />
     </>
   )
 }
