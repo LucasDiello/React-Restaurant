@@ -9,6 +9,7 @@ import SpecialDish from './components/SpecialDish'
 import Menu from './components/Menu'
 import Testimonials from './components/Testimonials'
 import Reservation from './components/Reservation'
+import Features from './components/Features'
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
     <Menu />
     <Testimonials />
     <Reservation />
+    <Features />
     </div>
   )
 }
