@@ -387,7 +387,6 @@ body.nav-active { overflow: hidden; }
 .section {
   position: relative;
   padding-block: var(--section-space);
-  overflow: hidden;
   z-index: 1;
 }
 
@@ -456,6 +455,7 @@ body.nav-active { overflow: hidden; }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
 }
 
 .input-field {
@@ -1150,7 +1150,7 @@ body.nav-active { overflow: hidden; }
   #RESERVATION
 \*-----------------------------------*/
 
-.reservation-form { margin-block-start: -270px; }
+.reservation-form { margin-block-start: -270px;  }
 
 .form-text { margin-block-end: 40px; }
 

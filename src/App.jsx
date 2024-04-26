@@ -6,6 +6,9 @@ import HeroSlider from './components/HeroSlider'
 import Servicos from './components/Servicos'
 import About from './components/About'
 import SpecialDish from './components/SpecialDish'
+import Menu from './components/Menu'
+import Testimonials from './components/Testimonials'
+import Reservation from './components/Reservation'
 
 function App() {
 
@@ -37,6 +40,9 @@ function App() {
     <Servicos />
     <About />
     <SpecialDish />
+    <Menu />
+    <Testimonials />
+    <Reservation />
     </div>
   )
 }
