@@ -10,6 +10,9 @@ import Menu from './components/Menu'
 import Testimonials from './components/Testimonials'
 import Reservation from './components/Reservation'
 import Features from './components/Features'
+import Event from './components/Event'
+import Footer from './components/Footer'
+import { AiOutlineUp } from 'react-icons/ai'
 
 function App() {
 
@@ -45,7 +48,13 @@ function App() {
     <Testimonials />
     <Reservation />
     <Features />
+    <Event />
+    <Footer />
+    <a href="#top" className="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <AiOutlineUp />
+  </a>
     </div>
+    
   )
 }
 
