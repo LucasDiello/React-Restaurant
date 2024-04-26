@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 :root {
 
   /**
@@ -2123,4 +2126,8 @@ textarea.input-field {
     left: 0;
   }
 
+}
+
+.rotate {
+  transform: rotate(320deg);
 }

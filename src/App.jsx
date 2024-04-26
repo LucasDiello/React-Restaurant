@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import TopBar from './components/TopBar'
 import Header from './components/Header'
 import './assets/css/style.css'
+import SliderSection from './components/HeroSlider'
+import HeroSlider from './components/HeroSlider'
 
 function App() {
 
@@ -29,6 +31,7 @@ function App() {
   </div>
     <TopBar />
     <Header />
+    <HeroSlider />
     </>
   )
 }
