@@ -1,16 +1,43 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logoSVG from "../assets/images/logo.svg";
 import { IoCloseCircleOutline } from 'react-icons/io5';
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
-
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+  const [isTop, setIsTop] = useState(false);
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+
+      if(currentScrollPos < 100) {
+        setIsTop(true);
+      } else {
+        setIsTop(false);
+      };
+
+      if (currentScrollPos > prevScrollPos) {
+        setVisible(false);
+      } else {
+        setVisible(true);
+      }
+      setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos, isTop]);
+
   return (
-    <header className="header">
+      <header className={`header ${!isTop && (!visible && 'active' )} ${!isTop && (visible && 'hide' )}
+      ${!isTop && (visible && 'active' )}
+      `}>
       <div className="container">
         <a href="#" className="logo">
           <img src={logoSVG} width="160" height="50" alt="Grilli - Início" />

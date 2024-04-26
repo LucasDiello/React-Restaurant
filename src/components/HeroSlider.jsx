@@ -8,7 +8,7 @@ import { GrFormPrevious } from 'react-icons/gr';
 
 function HeroSlider() {
   const [currentSlidePos, setCurrentSlidePos] = useState(0);
-  const autoSlideIntervalRef = useRef(null); // Ref para armazenar o intervalo do auto slide
+  const autoSlideIntervalRef = useRef(null);
 
   const heroSliderItems = [
     {

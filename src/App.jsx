@@ -4,6 +4,7 @@ import Header from './components/Header'
 import './assets/css/style.css'
 import SliderSection from './components/HeroSlider'
 import HeroSlider from './components/HeroSlider'
+import Servicos from './components/Servicos'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
   })
 
   return (
-    <>
+    <div className='scroll'>
       <div className="preload" data-preaload>
     <div className="circle"></div>
     <p className="text">Grilli</p>
@@ -32,7 +33,8 @@ function App() {
     <TopBar />
     <Header />
     <HeroSlider />
-    </>
+    <Servicos />
+    </div>
   )
 }
 
