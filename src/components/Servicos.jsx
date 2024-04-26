@@ -6,7 +6,7 @@ import shape2 from '../assets/images/shape-2.png';
 
 function Servicos() {
   return (
-    <section className="section service bg-black-10 text-center h-full" aria-label="serviço">
+    <section className="section service bg-black-10 text-center" aria-label="serviço">
       <div className="container">
 
         <p className="section-subtitle label-2">Sabores Para a Realeza</p>
@@ -87,8 +87,8 @@ function Servicos() {
 
         </ul>
 
-        <img src={shape1} width="246" height="412" loading="lazy" alt="formato" className="formato forma-1 move-anim" />
-        <img src={shape2} width="343" height="345" loading="lazy" alt="formato" className="formato forma-2 move-anim" />
+        <img src={shape1} width="246" height="412" loading="lazy" alt="formato" className="shape shape-1 move-anim" />
+        <img src={shape2} width="343" height="345" loading="lazy" alt="formato" className="shape shape-2 move-anim" />
 
       </div>
     </section>

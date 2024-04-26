@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import logoSVG from "../assets/images/logo.svg";
 import { IoCloseCircleOutline } from 'react-icons/io5';
 

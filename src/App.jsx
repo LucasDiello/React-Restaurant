@@ -2,9 +2,10 @@ import { useEffect } from 'react'
 import TopBar from './components/TopBar'
 import Header from './components/Header'
 import './assets/css/style.css'
-import SliderSection from './components/HeroSlider'
 import HeroSlider from './components/HeroSlider'
 import Servicos from './components/Servicos'
+import About from './components/About'
+import SpecialDish from './components/SpecialDish'
 
 function App() {
 
@@ -34,6 +35,8 @@ function App() {
     <Header />
     <HeroSlider />
     <Servicos />
+    <About />
+    <SpecialDish />
     </div>
   )
 }
