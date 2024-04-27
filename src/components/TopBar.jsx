@@ -9,7 +9,7 @@ const TopBar = () => {
             <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
           </div>
           <span className="span">
-            Restaurant St, Delicious City, London 9578, UK
+          Cidade Deliciosa, POA 9578, RS
           </span>
         </address>
 
@@ -19,7 +19,7 @@ const TopBar = () => {
           <div className="icon">
             <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
           </div>
-          <span className="span">Daily : 8.00 am to 10.00 pm</span>
+          <span className="span">Diária : 8.00 am to 10.00 pm</span>
         </div>
 
         <a href="tel:+11234567890" className="topbar-item link">

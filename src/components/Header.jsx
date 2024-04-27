@@ -61,28 +61,47 @@ const Header = () => {
             </li>
 
             <li className="navbar-item">
-              <a href="#menu" className="navbar-link hover-underline">
+              <a onClick={
+                () => {
+                  setIsNavOpen(false);
+                }
+              } href="#menu" className="navbar-link hover-underline">
                 <div className="separator"></div>
                 <span className="span">Cardápio</span>
               </a>
             </li>
 
             <li className="navbar-item">
-              <a href="#about" className="navbar-link hover-underline">
+              <a onClick={
+                () => {
+                  setIsNavOpen(false);
+                }
+              }
+              href="#about" className="navbar-link hover-underline">
                 <div className="separator"></div>
                 <span className="span">Sobre Nós</span>
               </a>
             </li>
 
             <li className="navbar-item">
-              <a href="#" className="navbar-link hover-underline">
+              <a onClick={
+                () => {
+                  setIsNavOpen(false);
+                }
+              }
+               href="#" className="navbar-link hover-underline">
                 <div className="separator"></div>
                 <span className="span">Nossos Chefs</span>
               </a>
             </li>
 
             <li className="navbar-item">
-              <a href="#" className="navbar-link hover-underline">
+              <a onClick={
+                () => {
+                  setIsNavOpen(false);
+                }
+              }
+              href="#" className="navbar-link hover-underline">
                 <div className="separator"></div>
                 <span className="span">Contato</span>
               </a>
@@ -93,7 +112,7 @@ const Header = () => {
             <p className="headline-1 navbar-title">Visite-nos</p>
             <address className="body-4">
               Rua do Restaurante, Cidade Deliciosa, <br />
-              Londres 9578, Reino Unido
+              POA 9578, RS
             </address>
             <p className="body-4 navbar-text">Aberto: 9:30 - 14:30</p>
             <a href="mailto:reservas@grilli.com" className="body-4 sidebar-link">
