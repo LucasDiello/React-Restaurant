@@ -13,9 +13,9 @@ function Footer() {
               <img src={logo} width="160" height="50" alt="Logotipo da Grilli" />
             </a>
             <address className="body-4">
-              Rua do Restaurante, Cidade Deliciosa, Londres 9578, Reino Unido
+              Rua do Restaurante, Cidade Deliciosa, POA 9578, RS
             </address>
-            <a href="mailto:booking@grilli.com" className="body-4 contact-link">booking@grilli.com</a>
+            <a href="mailto:booking@grilli.com" className="body-4 contact-link">booking@borcelle.com</a>
             <a href="tel:+88123123456" className="body-4 contact-link">Reservas: +88-123-123456</a>
             <p className="body-4">
               Aberto: 09:00 - 13:00
