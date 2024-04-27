@@ -6,7 +6,7 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
-  const [isTop, setIsTop] = useState(false);
+  const [isTop, setIsTop] = useState(true);
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
