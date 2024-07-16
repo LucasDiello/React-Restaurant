@@ -6,12 +6,14 @@ Este projeto foi desenvolvido como parte do treinamento em CSS, focando na cria�
 
 ✌️ O objetivo deste projeto é aplicar técnicas avançadas de CSS para criar uma interface visualmente atraente e responsiva para um site de restaurante. O layout deve ser moderno, intuitivo e agradável aos olhos dos usuários.
 
+## Preview:
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/LucasDiello/barber-shop)
-<div class="display:grid">
-<img src="src/assets/images/restaurant1.png" alt="drawing" width="400" />
-<img src="src/assets/images/restaurant2.png" alt="drawing" width="400" />
-<img src="src/assets/images/restaurant3.png" alt="drawing" width="400" />
-<img src="src/assets/images/restaurant4.png" alt="drawing" width="400" />
+<div >
+<img src="src/assets/images/restaurant1.png" alt="drawing" width="600" />
+<img src="src/assets/images/restaurant2.png" alt="drawing" width="600" />
+<img src="src/assets/images/restaurant3.png" alt="drawing" width="600" />
+<img src="src/assets/images/restaurant4.png" alt="drawing" width="600" />
 </div>
 
 
